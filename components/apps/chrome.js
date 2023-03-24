@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export class Chrome extends Component {
     constructor() {
         super();
-        this.home_url = 'https://www.bing.com/webhp?igu=1';
+        this.home_url = 'https://bhaskartripathi.com';
         this.state = {
-            url: 'https://www.bing.com/webhp?igu=1',
-            display_url: "https://www.bing.com",
+            url: 'https://bhaskartripathi.com',
+            display_url: "https://bhaskartripathi.com",
         }
     }
 
@@ -28,7 +28,7 @@ export class Chrome extends Component {
     }
 
     goToHome = () => {
-        this.setState({ url: this.home_url, display_url: "https://www.google.com" });
+        this.setState({ url: this.home_url, display_url: "https://www.bing.com/search?q=https%3A%2F%2Fgithub.com%2Fbhaskatripathi&form=QBLH&sp=-1&lq=0&pq=https%3A%2F%2Fgithub.com%2Fbhaskatripathi&sc=0-33&qs=n&sk=&cvid=B5ADFBBF7D674B2AB9785499DFEDB23C&ghsh=0&ghacc=0&ghpl=" });
         this.refreshChrome();
     }
 
@@ -47,8 +47,8 @@ export class Chrome extends Component {
             url = encodeURI(url);
             display_url = url;
             if (url.includes("bing.com")) { // 😅
-                url = 'https://www.bing.com/webhp?igu=1';
-                display_url = "https://www.bing.com";
+                url = 'https://www.google.com/webhp?igu=1';
+                display_url = "https://www.google.com";
             }
             this.setState({ url, display_url: url });
             this.storeVisitedUrl(url, display_url);

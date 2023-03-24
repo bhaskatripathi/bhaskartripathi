@@ -59,7 +59,7 @@ export class AboutVivek extends Component {
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="Bhaskar' education" src="./themes/Yaru/status/education.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Education and Publications</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="Bhaskar' skills" src="./themes/Yaru/status/skills.svg" />
@@ -125,9 +125,8 @@ function About() {
                 <li className=" mt-3 list-star">I began my career as a programmer using C# and SybaseIQ (the original Columnar DB). I subsequently worked as a Technology Lead and then as a Technical Product Manager where I sucessfully led engagements upto worth $50 million. </li>
                 <li className=" mt-3 list-star"> Over the past five years, I have worked as an AI Researcher specializing in dealing with enormous datasets (++petabytes) on and off the cloud and in Deep Learning and ML applied to Finance and algorithmic trading. In Quantitative Finance and Mathematical Optimization, I have authored numerous research papers in reputable SCIE journals and have been awarded two German patents.</li>
                 <li className=" mt-3 list-star">Presently I am working as a Principal Product Specialist - Data Science & Research Practices at MultiCloud4U Technologies (an official technology partner of Alibaba Cloud).I am also MVP - Artificial Intelligence for Alibaba Cloud and leading their tech community initiatives.</li>
-                <li className=" mt-3 list-star">My full stack experience:</li>
                 <li className=" mt-3 list-star">ML Deep Learning, Reinforcement Learning, mathematical optimization methods, metaheuristic algorithms, econometric methods and Financial Mathematics,Strong Data Engineering experience especially with huge datasets,Product Management, Product Strategy, Product Roadmap and Delivery.</li>
-                <li className=" mt-3 list-star">My present interest: Applying AI in Finance using these Libraries :Scientific computing Libraries</li>
+                <li className=" mt-3 list-star">My present interests: Applying AI/Reinforcement Learning in Finance, Large Language Models </li>
             </ul>
         </>
     )
@@ -143,7 +142,7 @@ function Education() {
                 </div>
             </div>
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
-                <li className="list-disc">
+                <li className="list-disc1">
                     <div>
                     1. Bachelor of Technology, Kurukshetra University
                     </div>
@@ -155,10 +154,32 @@ function Education() {
                 </li>
                 <li className="list-disc1">
                     <div>
-                    3. Ph.D. (Financial Mathematics), Thapar Institute of Engg. And Technology,(Thesis submission under process), 2022
+                    3. Ph.D. (Computational and Financial Mathematics), Thapar Institute of Engg. And Technology,2023
                     </div>
                 </li>
             </ul>
+                    <div>  <strong className="font-medium relative text-2xl mt-2 md:mt-4 mb-4"></strong> PATENTS: </div>
+            
+            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
+                <li className="list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <li className="list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <a href="https://register.dpma.de/DPMAregister/pat/register?AKZ=2020221037590&CURSOR=0" target="_blank">
+                    <strong className="text-ubt-gedit-orange">A Mind Controlled Portfolio Optimization and Backtesting System for Online Trading: </strong>
+                </a>
+                Patent Country : Germany. 
+                I created the world's first Mind-Controlled algorithmic trading system, which allows participants to trade using EEG headphones and their thoughts alone. The technology detects the participant's brainwaves and maps Frontal and Temporal-Partial signal changes to trigger EEG-based commands to an AI system that performs autonomous trading.
+                </li>
+                <li className="list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                <a href="https://register.dpma.de/DPMAregister/pat/register?AKZ=2020221044724&CURSOR=1" target="_blank">
+                    <strong className="text-ubt-gedit-orange">A blockchain and IoT based system to improve network security: </strong>
+                </a>
+                Patent Country : Germany.
+                This invention involves an IoT and blockchain-based system designed to improve computer network security. The system processes requests from client devices to access server-based services, analyzes URL patterns and request or response data signatures using a machine learning model, and determines the authenticity of requests or responses based on their URL pattern and data signatures.
+                </li>
+            </li>
+            </ul>
+            <div>  <strong className="font-medium relative text-2xl mt-2 md:mt-4 mb-4"></strong> PUBLICATIONS:</div>
+            <strong className="text-ubt-gedit-orange">Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=lT0XDl8AAAAJ&hl=en" target="_blank">Click here</a>
         </>
     )
 }
@@ -250,7 +271,7 @@ function Projects() {
             date: "Nov 2022",
             link: "https://bhaskartripathi-text2question.hf.space/",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "Automatically generate questions from a given Text using Transformer!",
             ],
             domains: ["Python", "Gradio"]
         },
@@ -314,7 +335,7 @@ function Projects() {
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Projects
+                Open Source Projects
                 <div className="absolute pt-px bg-white mt-px top-full w-full">
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
@@ -364,6 +385,7 @@ function Projects() {
         </>
     )
 }
+
 function Resume() {
     return (
         <iframe className="h-full w-full" src="./files/BHASKAR_TRIPATHI.pdf" title="Bhaskar resume" frameBorder="0"></iframe>
