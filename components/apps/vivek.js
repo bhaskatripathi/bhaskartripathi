@@ -248,6 +248,24 @@ function Projects() {
             ],
             domains: ["OpenAI", "next.js", "python"]
         },
+       {
+            name: "HypothesisHub",
+            date: "Apr 2023",
+            link: "https://github.com/bhaskatripathi/Text2Diagram",
+            description: [
+                "An AI Tool for Automated Research Question and Hypothesis Generation from a given Scientific Literature.",
+            ],
+            domains: ["Mermaid", "python"]
+        },
+        {
+            name: "Text2Diagram",
+            date: "Apr 2023",
+            link: "https://github.com/bhaskatripathi/HypothesisHub",
+            description: [
+                "Text2Diagram is an AI based diagramming tool that uses Natural language text to create diagrams.",
+            ],
+            domains: ["Langchain", "python"]
+        },
         {
             name: "FusionGPT",
             date: "Jan 2023",
