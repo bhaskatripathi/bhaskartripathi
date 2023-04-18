@@ -119,11 +119,8 @@ function About() {
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
-        
             </div>
-        
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" mt-3 list-star">Contact Me: bhaskar.tripathi@gmail.com</span></li>
                 <li className=" mt-3 list-star">I have a <span className=" font-medium">strong research and publication experience in ML Deep Learning, Reinforcement Learning, mathematical optimization methods, metaheuristic algorithms, econometric methods and Financial Mathematics.</span></li>
                 <li className=" mt-3 list-star">I began my career as a programmer using C# and SybaseIQ (the original Columnar DB). I subsequently worked as a Technology Lead and then as a Technical Product Manager where I sucessfully led engagements upto worth $50 million. </li>
                 <li className=" mt-3 list-star"> Over the past five years, I have worked as an AI Researcher specializing in dealing with enormous datasets (++petabytes) on and off the cloud and in Deep Learning and ML applied to Finance and algorithmic trading. In Quantitative Finance and Mathematical Optimization, I have authored numerous research papers in reputable SCIE journals and have been awarded two German patents.</li>
