@@ -11,7 +11,7 @@ import { displayTerminalCalc } from './components/apps/calc';
 const apps = [
     {
         id: "chrome",
-        title: "Google Chrome",
+        title: "My Profile Summary",
         icon: './themes/Yaru/apps/chrome.png',
         disabled: false,
         favourite: true,
