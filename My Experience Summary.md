@@ -1,5 +1,5 @@
 # My experience Summary
-### If you are opening this page on www.bhaskartripathi.com IN Visual Studio web then press CTRL+SHIFT+V to view the graph.
+### If you are opening this page on www.bhaskartripathi.com in Visual Studio web then press CTRL+SHIFT+V to view the graph.
 ```mermaid
 mindmap
 root{{BHASKAR TRIPATHI}}
