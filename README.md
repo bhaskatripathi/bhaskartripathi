@@ -117,6 +117,45 @@ root{{BHASKAR TRIPATHI}}
     Canada
     Asia Pacific markets
     China
+```
+# My Experience in Mathematical Optimization
+``` mermaid
+mindmap
+root{{My Optimization and Evolutionary Algo experience}}
+  (Mathematical Optimization)
+    Dynamic Programming
+    Quadratic Programming
+    Convex Optimization
+    Combinatorial Optimization
+    Bayesian Optimization
+    Tree Parzen Optimization (Single and MOPSO)
+  (Evolutionary Algorithms)
+    Genetic Algorithm
+    Particle Swarm Optimization 
+    Ant Colony Optimization 
+    Differential Evolution 
+    Simulated Annealing
+    Grey Wolf Optimization 
+    Hybrid Memetic Algorithms 
+  (Optimization)
+    Single Objective Benchmark functions
+    Multi Objective Benchmark funtions
+    Worked on more than 100+ benchmark functions
+    Pick Path Optimization
+    Pegion Hole Optimization
+  (Metaheuristics)
+    Tabu Search
+    Greedy Algorithms
+    Hill Climbing
+    Local Search
+    Randomized Algorithms
+    Simulated Annealing
+    Tabu Search
+  (Reinforcement Learning)
+   Single Agent RL 
+   Multi Agent RL 
+   Multi Criteria Optimization with MARL
+   Recurrent RL
 
 ```
 
