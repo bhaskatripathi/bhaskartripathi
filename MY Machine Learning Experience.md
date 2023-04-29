@@ -1,4 +1,4 @@
-# My Machine Learning experience in applied research
+# My Machine Learning experience
 
 ### If you are opening this page on www.bhaskartripathi.com in Visual Studio web then press CTRL+SHIFT+V to view the graph.
 ``` mermaid
