@@ -7,6 +7,7 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
+import { displayTerminalCalc } from './components/apps/youtube';
 
 const apps = [
     {
@@ -58,6 +59,15 @@ const apps = [
         id: "spotify",
         title: "Spotify",
         icon: './themes/Yaru/apps/spotify.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displaySpotify, 
+    },
+    {
+        id: "youtube",
+        title: "Youtube",
+        icon: './themes/Yaru/apps/youtube.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
