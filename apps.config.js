@@ -71,7 +71,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
-        screen: displaySpotify, 
+        screen: displayYoutube, 
     },
     {
         id: "settings",
