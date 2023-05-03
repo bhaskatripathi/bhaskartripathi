@@ -7,7 +7,7 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
-import { displayTerminalCalc } from './components/apps/youtube';
+import { displayYoutube } from './components/apps/youtube';
 
 const apps = [
     {
