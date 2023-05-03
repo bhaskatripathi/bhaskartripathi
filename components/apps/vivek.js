@@ -251,7 +251,7 @@ function Projects() {
        {
             name: "HypothesisHub",
             date: "Apr 2023",
-            link: "https://github.com/bhaskatripathi/Text2Diagram",
+            link: "https://github.com/bhaskatripathi/HypothesisHub",
             description: [
                 "An AI Tool for Automated Research Question and Hypothesis Generation from a given Scientific Literature.",
             ],
@@ -260,7 +260,7 @@ function Projects() {
         {
             name: "Text2Diagram",
             date: "Apr 2023",
-            link: "https://github.com/bhaskatripathi/HypothesisHub",
+            link: "https://github.com/bhaskatripathi/Text2Diagram",
             description: [
                 "Text2Diagram is an AI based diagramming tool that uses Natural language text to create diagrams.",
             ],
