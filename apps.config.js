@@ -42,7 +42,7 @@ const apps = [
         icon: './themes/Yaru/apps/vscode.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: false,
+        desktop_shortcut: true,
         screen: displayVsCode,
     },
     {
