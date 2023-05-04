@@ -1,3 +1,4 @@
 Visit www.bhaskartripathi.com for more details.
 
-<img src="skillset.png" alt="Skillsets">
+[![Output image](skillset.png)](https://github.com/bhaskatripathi/bhaskartripathi/blob/main/skillset.png)
+
